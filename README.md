@@ -60,3 +60,30 @@ This project reflects a systems-oriented approach to workflow automation, operat
 - Added formatted phone and SSN display
 - Refactored menu system into reusable functions
 - Prepared backend architecture for React integration
+
+## FastAPI Backend Update
+
+This project now includes a FastAPI backend version of the Employee Management System.
+
+### Backend Features
+
+- JSON-based employee data persistence using `employees.json`
+- Employee service layer in `services/employee_service.py`
+- Auto-generated `employee_id` values
+- Full CRUD API support:
+  - `GET /employees`
+  - `GET /employees/id/{employee_id}`
+  - `GET /employees/search/{search_term}`
+  - `POST /employees`
+  - `PUT /employees/id/{employee_id}`
+  - `PATCH /employees/id/{employee_id}`
+  - `DELETE /employees/id/{employee_id}`
+- Swagger API documentation available at `/docs`
+- Prepared for future React frontend integration
+
+### Run the API
+
+Install dependencies:
+
+```bash
+pip install fastapi uvicorn
