@@ -1,0 +1,22 @@
+[
+    {
+        "employee_id": 1001,
+        "name": "Maximillian Peace",
+        "ssn": "486544657",
+        "phone": "5468751635",
+        "email": "puppy.life@sbcglobal.net",
+        "hire_date": "05/17/2026",
+        "hourly_wage": 50.0,
+        "annual_salary": 104000.0
+    },
+    {
+        "employee_id": 1002,
+        "name": "Ian Peace",
+        "ssn": "346781567",
+        "phone": "1112223333",
+        "email": "ian.patch@test.com",
+        "hire_date": "06/05/2026",
+        "hourly_wage": 55.25,
+        "annual_salary": 114920.0
+    }
+]
