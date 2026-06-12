@@ -48,3 +48,15 @@ Future Improvements
 Engineering Focus
 
 This project reflects a systems-oriented approach to workflow automation, operational design, and structured backend logic using Python.
+
+## Refactor Improvements (June 2026)
+
+- Converted employee records from nested lists to dictionaries
+- Added JSON persistence
+- Added hire date tracking
+- Added salary calculation automation
+- Added general employee search
+- Added field-specific employee search
+- Added formatted phone and SSN display
+- Refactored menu system into reusable functions
+- Prepared backend architecture for React integration
